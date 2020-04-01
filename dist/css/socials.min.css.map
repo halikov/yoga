@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACP,OAAO,CAAE,IAAI,CACb,KAAK,CAAE,IAAI,CAcZ,AAZE,AAAD,cAAO,AAAC,CACN,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,aAAa,CAC9B,WAAW,CAAE,MAAM,CACnB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AAEA,AAAD,cAAO,AAAC,CACN,OAAO,CAAE,GAAG,CACb",
+    "sources": [
+        "../../source/sass/socials.scss"
+    ],
+    "names": [],
+    "file": "socials.min.css"
+}

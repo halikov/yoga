@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.intro {
+  background: #E4D9E3 url(../img/йога-гл-экран.jpg) no-repeat 0 0;
+}
+
+.intro__slogan {
+  margin: 70px 0 30px 0;
+  padding: 0;
+  font-family: Caveat, Arial, sans-serif;
+}
+
+.intro__heading {
+  margin: 0;
+  padding: 0;
+  font-size: 67px;
+  color: #ffffff;
+}
+
+.intro__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.intro__top-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.intro__top-column_left {
+  width: 30px;
+  margin-left: 15px;
+}
+
+.intro__top-column_right {
+  width: 105px;
+  margin-right: 15px;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.intro__button {
+  width: auto;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.intro__copyright {
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 15px;
+}
+/*# sourceMappingURL=intro.css.map */

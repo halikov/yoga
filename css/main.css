@@ -1,0 +1,264 @@
+@charset "UTF-8";
+@import url(/media/mikail/Локальный Диск/projects/yoga/source/sass/normalize.css);
+@font-face {
+  font-family: 'Geometria-Medium';
+  src: url("../../fonts/geometria-medium.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../../fonts/geometria-medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/geometria-medium.woff2") format("woff2"), url("../../fonts/geometria-medium.woff") format("woff"), url("../../fonts/geometria-medium.ttf") format("truetype"), url("../../fonts/geometria-medium.svg#geometria-medium") format("svg");
+  /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Geometria-Bold';
+  src: url("../../fonts/geometria-bold.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../../fonts/geometria-bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/geometria-bold.woff2") format("woff2"), url("../../fonts/geometria-bold.woff") format("woff"), url("../../fonts/geometria-bold.ttf") format("truetype"), url("../../fonts/geometria-bold.svg#geometria-bold") format("svg");
+  /* Chrome < 4, Legacy iOS */
+}
+
+*,
+*::before,
+*::after {
+  display: block;
+}
+
+body {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Geometria-Medium', Arial, sans-serif;
+  font-size: 10px;
+  line-height: 15px;
+  color: #8E80A9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+/* кнопка меню */
+.burger-button {
+  display: block;
+}
+
+.burger-button__line1, .burger-button__line2, .burger-button__line3 {
+  display: block;
+  width: 30px;
+  height: 1px;
+  margin-bottom: 4.5px;
+  background-color: #8E80A9;
+}
+
+.burger-button__line3 {
+  width: 20px;
+  margin: 0;
+}
+
+.section {
+  margin: 0;
+  padding: 0;
+}
+
+.section__title {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 320px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.intro {
+  background: #E4D9E3 url(../img/йога-гл-экран.jpg) no-repeat 0 0;
+}
+
+.intro__slogan {
+  margin: 70px 0 30px 0;
+  padding: 0;
+  font-family: Caveat, Arial, sans-serif;
+}
+
+.intro__heading {
+  margin: 0;
+  padding: 0;
+  font-size: 67px;
+  color: #ffffff;
+}
+
+.intro__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.intro__top-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.intro__top-column_left {
+  width: 30px;
+  margin-left: 15px;
+}
+
+.intro__top-column_right {
+  width: 105px;
+  margin-right: 15px;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.intro__button {
+  width: auto;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.intro__copyright {
+  margin-bottom: 15px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.button-container .arrow-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 26px;
+  margin: 0;
+  margin-right: 7px;
+  padding: 0;
+  background-color: #E65C7B;
+}
+
+.button-container .arrow-icon svg {
+  width: 30px;
+  height: auto;
+  margin: 0;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+}
+
+.socials__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.socials__item {
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */

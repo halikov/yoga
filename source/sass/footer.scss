@@ -1,0 +1,32 @@
+.footer {
+  background-color: #e0dced;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 0 auto;
+
+    &--top {
+      align-items: center;
+      background-image: url(../img/yoga-footer.png);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+    }
+
+    &--bottom {
+      align-items: flex-start;
+      padding: 50px 35px;
+      font-size: 14px;
+      line-height: 20px;
+      color: #ffffff;
+      background-color: #8373a1;
+
+
+    }
+  }
+}
+
+
+

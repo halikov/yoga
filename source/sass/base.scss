@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  /*display: block;*/
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Geometria-Medium', Arial, sans-serif;
+  font-size: 10px;
+  line-height: 15px;
+  color: #8E80A9;
+
+  background-color: #FCF8FE;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+/* кнопка меню */
+.burger-button {
+  display: block;
+  &__line1,
+  &__line2,
+  &__line3 {
+    display: block;
+    width: 30px;
+    height: 1px;
+    margin-bottom: 4.5px;
+    background-color: #8E80A9;
+  }
+
+  &__line3 {
+    width: 20px;
+    margin: 0;
+  }
+}

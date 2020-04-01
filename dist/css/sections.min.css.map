@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACP,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CAKX,AAJE,AAAD,eAAQ,AAAC,CACP,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,CAAC,CACf",
+    "sources": [
+        "../../source/sass/sections.scss"
+    ],
+    "names": [],
+    "file": "sections.min.css"
+}

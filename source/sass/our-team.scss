@@ -1,0 +1,24 @@
+.our-team {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 320px;
+  margin: 0 auto;
+  background-image: url(../img/yoga-screen4-phone.png);
+  background-repeat: no-repeat;
+  background-position: 0 -60px;
+  background-size: contain;
+
+  &__list {
+    width: 230px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

@@ -1,0 +1,34 @@
+.socials {
+  display: flex;
+  width: auto;
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    margin: 0;
+    padding: 0;
+
+    @media (min-width: $width-medium) {
+      &--header {
+        margin-right: 7px;
+      }
+    }
+
+    @media (min-width: $width-large) {
+      &--header {
+        margin-right: 11px;
+      }
+    }
+  }
+
+  &__link {
+    padding: 5px;
+  }
+}

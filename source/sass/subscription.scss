@@ -1,0 +1,29 @@
+.subscription {
+  display: flex;
+  flex-wrap: wrap;
+
+  .subscription__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    color: #e65c7b;
+  }
+
+  &__item {
+    margin: 0;  
+    margin-right: 25px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__item_active {
+    border-bottom: 1px solid #e65c7b;
+  }
+}

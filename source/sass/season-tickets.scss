@@ -1,0 +1,35 @@
+.season-tickets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCF8FE;
+  background-image: url(../img/yoga-cloud-phone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__duration {
+    margin-bottom: 35px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 70px;  
+    padding: 0;
+  }
+
+  &__card {
+    width: 250px;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

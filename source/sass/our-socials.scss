@@ -1,0 +1,31 @@
+.our-socials {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  &__item {
+    margin-right: 25px;
+  }
+
+  &__icon {
+    &--vk {
+      width: 25px;
+      height: 15px;
+    }
+
+    &--tw {
+      width: 30px;
+      height: 20px;
+    }
+
+    &--fb {
+      width: 10px;
+      height: 21px;
+    }
+  }
+}
+

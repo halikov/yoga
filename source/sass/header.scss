@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  &__footer {
+    display: none;
+    width: 100%;
+
+    @media (min-width: $width-medium) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 130px;
+      padding: 0 70px;
+      color: #8b7eac;
+    }
+
+    @media (min-width: $width-large) {
+      padding: 0 130px;
+    }
+  }
+}
