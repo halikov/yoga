@@ -13,10 +13,14 @@
 
     @media (min-width: $width-medium) {
       margin-bottom: 45px;
+      font-size: 21px;
+      line-height: 15px
     }
 
     @media (min-width: $width-large) {
       margin-bottom: 45px;
+      font-size: 30px;
+      line-height: 15px
     }
   }
 }

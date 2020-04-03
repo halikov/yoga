@@ -11,6 +11,10 @@
     transform: rotate(180deg);
   }
 
+  &__list-wrapper {
+    position: relative;
+  }
+
   &__list {
     display: flex;
     flex-direction: column;
@@ -85,7 +89,7 @@
     @media (min-width: $width-medium) {
       position: absolute;
       bottom: 70px;
-      right: 73px;
+      right: 0;
       display: block;
       width: 350px;
       padding: 7px;

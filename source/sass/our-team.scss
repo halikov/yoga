@@ -10,8 +10,14 @@
   background-position: 0 -60px;
   background-size: contain;
 
+  &__tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   &__list {
-    width: 230px;
+    width: 100%;
     margin: 0;
     padding: 0;
   }

@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
 
-  .subscription__list {
+  &__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -21,9 +21,9 @@
     &:last-child {
       margin: 0;
     }
-  }
 
-  &__item_active {
-    border-bottom: 1px solid #e65c7b;
+    &--active {
+      border-bottom: 1px solid #e65c7b;
+    }
   }
 }

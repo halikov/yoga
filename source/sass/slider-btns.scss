@@ -1,5 +1,6 @@
 .slider-btns {
   position: relative;
+  width: 290px;
   
   &__button {
     position: absolute;
@@ -21,7 +22,7 @@
     }
 
     &--left {
-      left: -33px;
+      left: 0;
 
       &::before {
         border-bottom: 1px solid #ffffff;
@@ -31,7 +32,7 @@
     }
 
     &--right {
-      right: -33px;
+      right: 0;
 
       &::before {
         border-top: 1px solid #ffffff;

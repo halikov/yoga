@@ -1,6 +1,10 @@
 .member {
   display: flex;
 
+  &__wrapper {
+    width: 230px;
+  }
+
   &__vc {
     display: flex;
     flex-direction: row;
@@ -10,10 +14,19 @@
   }
 
   &__name {
-    margin: 20px 15px 15px;
+    margin: 20px 0;
+    margin-left: 15px;
     font-size: 10px;
     line-height: 15px;
     color: #e65c7b;
+    & p {
+      margin: 0;
+      margin-top: 5px;
+      padding: 0;
+      font-size: 10px;
+      line-height: 20px;
+      color: #8e80a9; 
+    }
   }
 
   &__about {
@@ -32,5 +45,19 @@
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  &__icon {
+    width: 18px;
+    height: 12px;
   }
 }

@@ -5,6 +5,16 @@
   justify-content: space-between;
   align-items: center;
 
+  @media (min-width: $width-medium) {
+    &:not(.ticket--active) > .button {
+      display: none;
+    }
+
+    &:not(.ticket--active) {
+      width: 176px;
+    }
+  }
+
   &__title {
     margin: 0;
     margin-bottom: 20px;
@@ -22,7 +32,6 @@
   }
 
   &__price {
-    margin-bottom: 25px;
     font-family: 'Geometria-Bold', Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
@@ -30,6 +39,7 @@
 
   &__order {
     width: 148px;
+    margin-top: 25px;
     padding: 14px 23px;
     border: 0;
 
